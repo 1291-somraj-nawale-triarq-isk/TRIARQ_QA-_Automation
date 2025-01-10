@@ -50,7 +50,7 @@ class locators:
     Exclude_Report_Box = "//input[@type='checkbox']"
     Pin_Icon = "(//ion-button[@fill='clear'])[5]"
 
-
+######## ----
 @pytest.fixture(scope='session')
 def setup():
     driver = webdriver.Chrome()
